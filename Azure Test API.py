@@ -19,5 +19,3 @@ app = Flask(__name__)
 @app.route('/')
 def sample():
     return "Hello"
-
-app.run(port=5000)
